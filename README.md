@@ -115,32 +115,6 @@ To run this project on your machine, follow these steps:
    ```
    The app will automatically launch in your default web browser at `http://localhost:8501`.
 
----
-
-## ☁️ Hugging Face Spaces Deployment
-
-Hugging Face Spaces is the ideal platform to host this Streamlit app for free and showcase it directly on your resume.
-
-### Step-by-Step Deployment Guide:
-
-1. **Sign up / Log in** to [Hugging Face](https://huggingface.co/).
-2. Click on your profile picture in the top-right corner and select **New Space**.
-3. Configure your space settings:
-   - **Space Name**: e.g., `customer-churn-predictor`
-   - **SDK**: Select **Streamlit**.
-   - **Hardware**: Choose **CPU Basic (Free)**.
-   - **Visibility**: **Public**.
-4. Link your Space to your GitHub Repository for continuous deployment:
-   - Select **GitHub** under *Repository source* (if you have your GitHub account linked), OR
-   - Simply clone the Hugging Face Space repository locally and push your code to it:
-     ```bash
-     git remote add hf https://huggingface.co/spaces/<your-hf-username>/<your-space-name>
-     git push -f hf main
-     ```
-5. Hugging Face will automatically read `requirements.txt`, install dependencies, and spin up your Streamlit `app.py`. Your live link will look like:
-   `https://huggingface.co/spaces/<your-hf-username>/<your-space-name>`
-
----
 
 ## 📈 Business Insights & Recommendations
 

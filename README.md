@@ -4,7 +4,7 @@
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.0%2B-orange.svg?style=for-the-badge&logo=scikitlearn)](https://scikit-learn.org/)
 [![XGBoost](https://img.shields.io/badge/XGBoost-1.5%2B-green.svg?style=for-the-badge&logo=xgboost)](https://xgboost.readthedocs.io/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.0%2B-ff4b4b.svg?style=for-the-badge&logo=streamlit)](https://streamlit.io/)
-[![HuggingFace Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-yellow.svg?style=for-the-badge)](https://huggingface.co/spaces)
+
 
 An end-to-end Machine Learning project to predict telecommunication customer churn and recommend retention strategies. This project comprises a fully executed Jupyter notebook exploring the data science lifecycle and a modern, deployable **Streamlit web application** that can be hosted on **Hugging Face Spaces**.
 
